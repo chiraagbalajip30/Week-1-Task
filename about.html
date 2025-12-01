@@ -13,7 +13,30 @@
     </nav>
 
     <div class="container">
-      <h1>About This Website</h1>
+      <div class="main-div">
+        <h1>About this Website</h1>
+        <div
+          style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+          "
+        >
+          <button
+            onclick="toggleTheme()"
+            style="
+              width: 120px;
+              height: 40px;
+              font-size: 14px;
+              padding: 0;
+              cursor: pointer;
+            "
+          >
+            TOGGLE THEME
+          </button>
+        </div>
+      </div>
       <p>
         This mini project demonstrates how a simple website can be structured
         using HTML and beautifully styled using CSS.
@@ -26,6 +49,29 @@
         Building projects like this helps strengthen your basics in front-end
         development.
       </p>
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 0;
+        "
+      >
+        <button
+          onclick="showMessage()"
+          style="
+            width: 120px;
+            height: 40px;
+            font-size: 14px;
+            padding: 0;
+            cursor: pointer;
+            margin-top: 26px;
+          "
+        >
+          Click Me
+        </button>
+      </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
